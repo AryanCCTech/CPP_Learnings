@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
-class Input
+class Output
 {
 public:
-	void ignore_10_chars();
+	void print_precise_values();
 };
 

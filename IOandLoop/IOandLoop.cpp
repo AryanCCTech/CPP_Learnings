@@ -1,17 +1,18 @@
 // IOandLoop.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+#include "Input.h"
+#include "Output.h"
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    double x,y;
-    string space = " ";
-    cin >> x >> space >> y;
-    cout.precision(10);
-    cout << x ;
+	Input I;
+	I.ignore_10_chars();
+	Output O;
+	O.print_precise_values();
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
