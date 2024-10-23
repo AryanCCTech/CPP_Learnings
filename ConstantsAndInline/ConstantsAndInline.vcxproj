@@ -18,11 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\ConstantsAndInline.cpp" />
+    <ClCompile Include="Source\EXPasConst.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ff272896-6aa6-42bf-b67d-f0fdd858150f}</ProjectGuid>
-    <RootNamespace>IOandLoop</RootNamespace>
+    <ProjectGuid>{cf44742c-cb18-4420-bfb0-928716c3ff1e}</ProjectGuid>
+    <RootNamespace>ConstantsAndInline</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Academic\CPPLearning\CPP_Learnings\IOandLoop\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AryanWorkplace\CPP_Learnings\ConstantsAndInline\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,20 +131,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="IOandLoop.cpp" />
-    <ClCompile Include="Output.cpp" />
-    <ClCompile Include="Source\Input.cpp" />
-    <ClCompile Include="Source\Output.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Header\Input.h" />
-<<<<<<< Updated upstream
-    <ClInclude Include="Header\Output.h" />
-=======
-    <ClInclude Include="Output.h" />
->>>>>>> Stashed changes
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
